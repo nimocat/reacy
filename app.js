@@ -1,8 +1,11 @@
 const Koa = require('koa');
+const config = require('./config');
 const app = new Koa();
 
 app.use(async ctx => {
   ctx.body = 'Hello World';
 });
 
-app.listen(3000);
+console.log(`listten on port ${config.port}`)
+
+app.listen(config.port);
