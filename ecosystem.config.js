@@ -7,7 +7,7 @@ module.exports = {
 
     // First application
     {
-      name      : 'API',
+      name      : 'reacy',
       script    : 'app.js',
       env: {
         COMMON_VARIABLE: 'true'
@@ -29,7 +29,7 @@ module.exports = {
       ref  : 'origin/master',
       repo : 'https://github.com/Makcy/reacy.git',
       path : '/var/www/production',
-      'post-deploy' : 'yarn install && pm2 reload ecosystem.config.js --env production && pm2 stop reacy -f && pm2 start app.js -n reacy'
+      'post-deploy' : 'yarn install && pm2 reload ecosystem.config.js --env production'
     },
     // dev : {
     //   user : 'node',
