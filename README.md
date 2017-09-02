@@ -7,6 +7,7 @@
 ## TODO 
 ~~-ADD ORM lib (MongoDB or PostgreSQL )~~
 - ADD Babel 
+- ADD Redis 
 - ADD Graphql api 
 - ADD Ana unit test 
 - ADD React repository 
