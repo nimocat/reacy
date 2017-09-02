@@ -1,7 +1,5 @@
 module.exports = {
   apps : [
-
-    // First application
     {
       name      : 'Reacy_Production',
       script    : 'app.js',
