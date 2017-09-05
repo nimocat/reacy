@@ -9,7 +9,7 @@
 - ADD Babel 
 - ADD Redis 
 - ADD Graphql api 
-- ADD Ana unit test 
+- ADD ANA unit test 
 - ADD React repository 
 - ADD Deploy by docker
 - Make Project architecture best fit koa  
