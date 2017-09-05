@@ -1,9 +1,10 @@
-{ 
+{
   "scripts": {
     "deploy": "pm2 deploy ecosystem.config.js production"
   },
   "dependencies": {
     "koa": "^2.3.0",
+    "koa-router": "^7.2.1",
     "mongoose": "^4.11.9",
     "ramda": "^0.24.1"
   },

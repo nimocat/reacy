@@ -8,10 +8,11 @@
 ~~-ADD ORM lib (MongoDB or PostgreSQL )~~
 
 ~~-ADD PM2 deploy~~
-- ADD Babel 
 - ADD Redis 
 - ADD Graphql api 
 - ADD ANA unit test 
 - ADD React repository 
 - ADD Deploy by docker
+- ADD Babel 
+- ADD I18n
 - Make Project architecture best fit koa  

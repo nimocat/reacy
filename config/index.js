@@ -8,7 +8,7 @@ env = env.toLowerCase();
 var file = path.resolve(__dirname, env);
 try {
   var config = module.exports = require(file);
-  console.log('load config: [%s] %s', env, file);
+  console.log(`load config: [${env}] ${file}`);
 } catch (e) {
   console.error(`Cannot load config: ${env} ${file}`);
   throw e;
