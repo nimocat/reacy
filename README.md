@@ -6,6 +6,8 @@
 
 ## TODO 
 ~~-ADD ORM lib (MongoDB or PostgreSQL )~~
+
+~~-ADD PM2 deploy~~
 - ADD Babel 
 - ADD Redis 
 - ADD Graphql api 
