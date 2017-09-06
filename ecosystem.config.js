@@ -8,7 +8,7 @@ module.exports = {
       }
       // instances: 3,
       // exec_mode: 'cluster',
-      merge_logs: true,
+      // merge_logs: true,
       env_production : {
         NODE_ENV: 'production'
       }
