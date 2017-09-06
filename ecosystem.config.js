@@ -5,10 +5,10 @@ module.exports = {
       script : './api/app.js',
       env : {
         // COMMON_VARIABLE: 'true'
-        // instances: 3,
-        // exec_mode: 'cluster',
-        // merge_logs: true,
-      }
+      },
+      instances: 3,
+      exec_mode: 'cluster',
+      merge_logs: true,
       env_production : {
         NODE_ENV: 'production'
       }
