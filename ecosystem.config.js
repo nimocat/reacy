@@ -16,9 +16,9 @@ module.exports = {
       user : 'root',
       host : '101.200.38.240',
       ref  : 'origin/master',
-      repo : 'https://github.com/Makcy/reacy.git',
+      repo : 'git@github.com:Makcy/reacy.git',
       path : '/var/www/production',
-      'post-deploy' : 'yarn install && pm2 startOrRestart ecosystem.config.js --env production'
+      'post-deploy' : 'yarn install && pm2 reload ecosystem.config.js --env production'
     },
   }
 };
