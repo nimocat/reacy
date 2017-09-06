@@ -6,8 +6,8 @@ module.exports = {
       env : {
         // COMMON_VARIABLE: 'true'
       }
-      instances: 3,
-      exec_mode: 'cluster',
+      // instances: 3,
+      // exec_mode: 'cluster',
       merge_logs: true,
       env_production : {
         NODE_ENV: 'production'
