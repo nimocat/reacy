@@ -1,6 +1,6 @@
 module.exports = {
-  async userIndexPage (ctx) {
-    const title = 'user index page'
+  async indexPage (ctx) {
+    const title = 'User Index'
     ctx.body = title;
   },
 }
