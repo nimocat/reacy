@@ -3,6 +3,7 @@
 ## STACK
 - Koa 
 - MongoDB
+- Graphql 
 
 ## TODO 
 ~~-ADD ORM lib (MongoDB or PostgreSQL )~~
