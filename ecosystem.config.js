@@ -1,9 +1,9 @@
 module.exports = {
   apps : [
     {
-      name      : 'ReacyApi',
-      script    : './api/app.js',
-      env: {
+      name : 'ReacyApi',
+      script : './api/app.js',
+      env : {
         // COMMON_VARIABLE: 'true'
       },
       env_production : {
