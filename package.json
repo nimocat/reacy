@@ -3,9 +3,11 @@
     "deploy": "pm2 deploy ecosystem.config.js production"
   },
   "dependencies": {
+    "global": "^4.3.2",
     "koa": "^2.3.0",
     "koa-router": "^7.2.1",
     "mongoose": "^4.11.9",
+    "nodemon": "^1.12.0",
     "ramda": "^0.24.1"
   },
   "devDependencies": {
