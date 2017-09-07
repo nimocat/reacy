@@ -1,6 +1,6 @@
 module.exports = {
   async indexPage (ctx) {
-    const title = '~~~China No_1~~~'
+    const title = 'Php_no1'
     ctx.body = title;
   },
 }
