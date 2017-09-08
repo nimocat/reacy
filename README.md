@@ -19,3 +19,8 @@ Npm Version 5.4.0
 - Make Project architecture best fit koa  
 - ADD Graphql api 
 - ADD Deploy by docker
+
+## Q&A
+- **why my pm2 can't pull branch of recent update?**
+
+  please install your git from sources, version from 1.8 to 2.0+
